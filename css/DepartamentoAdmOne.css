@@ -1,0 +1,214 @@
+/* Reset de estilos padrão */
+body, h1, h2, h3, h4, h5, h6, p, ul, li, button, input {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos básicos do corpo */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container principal */
+.departamento-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    padding: 20px;
+    margin-top: 50px; /* Adicionei um espaçamento superior */
+}
+
+/* Estilo da coluna principal */
+.column-departame {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+    align-items: center;
+}
+
+/* Estilo do cabeçalho */
+.header-departame {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.departamentos {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-left: 50px; /* Alinha o título "Departamentos" mais à esquerda */
+}
+
+/* Estilo do conteúdo principal */
+.container-sm {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    width: 100%;
+}
+
+.column-administr-24 {
+    background-color: #e7eff9;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.column-administr-24 h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #000000;
+}
+
+.column-administr-24 h2 {
+    font-size: 1.25rem;
+    color: #666666;
+}
+
+/* Seção de apresentação */
+.row-apresentao-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    align-items: center;
+}
+
+.column-apresenta-5 h3 {
+    font-size: 1.25rem;
+    font-weight: normal;
+    color: #000000;
+    text-align: center;
+}
+
+.apresentao-span {
+    font-weight: bold;
+}
+
+.row-deo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.vdeo.ui.button {
+    background-color: #e7eff9;
+    color: #000000;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+.pdf.ui.button {
+    background-color: #e7eff9;
+    color: #000000;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+/* Seção de materiais */
+.column-materiais {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    width: 100%;
+}
+
+.column-materiais h4 {
+    font-size: 1.25rem;
+    color: #000000;
+    text-align: center;
+}
+
+.row-vdeos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.vdeos.ui.button,
+.livros.ui.button {
+    background-color: #e7eff9;
+    color: #000000;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+/* Seção de fórum */
+.column-frumde-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    width: 100%;
+}
+
+.column-frumde-1 p {
+    font-size: 1.25rem;
+    color: #000000;
+    text-align: center;
+}
+
+.row-m_one {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    max-width: 600px;
+}
+
+.grouptwentyeigh {
+    display: flex;
+    flex: 1;
+}
+
+.grouptwentyeigh input {
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    padding: 10px;
+    width: 100%;
+    font-size: 1rem;
+}
+
+.send_three {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+/* Botão de relatório */
+.relatrio-2.ui.button {
+    background-color: #e7eff9;
+    color: #000000;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 20px;
+}

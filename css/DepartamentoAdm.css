@@ -1,0 +1,176 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: #f8f9fa;
+    color: #343a40;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    height: 100vh;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+}
+
+/* Sidebar */
+.sidebar {
+    background-color: #343a40;
+    color: #fff;
+    width: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+    height: 100vh;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.sidebar img {
+    width: 40px;
+    margin-bottom: 30px;
+    transition: transform 0.3s ease;
+}
+
+.sidebar img:hover {
+    transform: scale(1.1);
+}
+
+.column-edit.one {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.column-edit.one li {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.column-edit.one a {
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+    transition: background-color 0.3s ease;
+}
+
+.column-edit.one a:hover {
+    background-color: #495057;
+    border-radius: 10px;
+}
+
+.column-edit.one img {
+    width: 30px;
+}
+
+.line-three_one {
+    width: 50%;
+    height: 2px;
+    background-color: #495057;
+    margin-top: auto;
+    margin-bottom: 20px;
+}
+
+/* Main content area */
+.column-departame {
+    flex: 1;
+    padding: 20px;
+    margin-left: 80px; /* Compensa a largura da sidebar */
+    max-width: 800px; /* Define uma largura máxima */
+}
+
+.header-departame {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #6c757d;
+    padding: 15px 20px;
+    color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.header-departame .departamentos {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.container-sm {
+    background-color: #fff;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.column-administr-22 {
+    margin-bottom: 20px;
+}
+
+.column-administr-22 h1 {
+    font-size: 2.5rem;
+    color: #343a40;
+    margin-bottom: 10px;
+}
+
+.column-administr-22 h2 {
+    font-size: 1rem;
+    color: #495057;
+}
+
+.column-apresenta,
+.column-1.container-xs,
+.column_one-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e9ecef;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.column-apresenta h3,
+.column-1.container-xs h4,
+.column_one-2 h6 {
+    font-size: 1.5rem;
+    color: #343a40;
+}
+
+.entrar-1 {
+    background-color: #495057;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.entrar-1:hover {
+    background-color: #343a40;
+}
+
+.row-entrar p {
+    font-size: 1rem;
+    color: #495057;
+    margin: 0;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.row-entrar p:hover {
+    color: #343a40;
+}
