@@ -1,0 +1,133 @@
+/* Reset básico */
+body, h1, h2, h3, p, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Estrutura principal */
+.departamento-3 {
+    display: flex;
+    min-height: 100vh;
+}
+
+.sidebar {
+    width: 80px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.menu-item {
+    margin-bottom: 20px;
+}
+
+.menu-item img {
+    width: 30px;
+    height: 30px;
+}
+
+.main-content {
+    flex: 1;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.header-departamento {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.departamentos {
+    font-size: 1.5rem;
+    color: #888;
+}
+
+.administrao-3 {
+    text-align: center;
+    font-size: 2rem;
+    color: #4b65c2;
+    margin-bottom: 30px;
+}
+
+.relatorio-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.relatorio-box {
+    background-color: #e6efff;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.apresentacao {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+}
+
+.box-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.content-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+.material {
+    font-size: 1rem;
+    color: #333;
+}
+
+.status-button {
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-size: 0.875rem;
+    cursor: pointer;
+}
+
+.complete {
+    background-color: #4b65c2;
+    color: #fff;
+}
+
+.incomplete {
+    background-color: #bdd7f3;
+    color: #4b65c2;
+}
+
+.user-profile {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #e96f6f;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: white;
+    font-weight: bold;
+}
+
+.profile-initial {
+    font-size: 1rem;
+}

@@ -1,0 +1,111 @@
+/* Reset básico */
+body, h1, h2, h3, p, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Estrutura principal */
+.departamento-3 {
+    display: flex;
+    min-height: 100vh;
+}
+
+.sidebar {
+    width: 80px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.menu-item {
+    margin-bottom: 20px;
+}
+
+.menu-item img {
+    width: 30px;
+    height: 30px;
+}
+
+.main-content {
+    flex: 1;
+    padding: 20px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-departamento {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.departamentos {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.relatorio-total {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.relatorio-total-button {
+    background-color: #bdd7f3;
+    color: #4b65c2;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.relatorio-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 0 20px;
+}
+
+.administrao-1 {
+    display: flex;
+    flex: 1;
+}
+
+.administrao-1 input {
+    border-radius: 8px;
+    border: 1px solid #ced4da;
+    padding: 10px;
+    width: 100%;
+    font-size: 1rem;
+    background-color: #ffffff;
+}
+
+/* Perfil do usuário */
+.user-profile {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #e96f6f;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: white;
+    font-weight: bold;
+}
+
+.profile-initial {
+    font-size: 1rem;
+}
